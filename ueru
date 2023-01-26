@@ -12,21 +12,21 @@
 	local L_138_ = true
 	local L_139_
 	L_136_.InputBegan:connect(function(L_140_arg0)
-		if L_140_arg0.KeyCode == Enum.KeyCode.LeftBracket then
+		if L_140_arg0.KeyCode == Enum.KeyCode.Z then
 			Multiplier = Multiplier + 0.01
 			print(Multiplier)
 			wait(0.2)
-			while L_136_:IsKeyDown(Enum.KeyCode.LeftBracket) do
+			while L_136_:IsKeyDown(Enum.KeyCode.Z) do
 				wait()
 				Multiplier = Multiplier + 0.01
 				print(Multiplier)
 			end
 		end
-		if L_140_arg0.KeyCode == Enum.KeyCode.RightBracket then
+		if L_140_arg0.KeyCode == Enum.KeyCode.Zt then
 			Multiplier = Multiplier - 0.01
 			print(Multiplier)
 			wait(0.2)
-			while L_136_:IsKeyDown(Enum.KeyCode.RightBracket) do
+			while L_136_:IsKeyDown(Enum.KeyCode.Z) do
 				wait()
 				Multiplier = Multiplier - 0.01
 				print(Multiplier)
